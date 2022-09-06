@@ -1,0 +1,116 @@
+.main-box1{
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    overflow: hidden;
+    margin: 30px;
+    border: 10px solid gray;
+    border-radius: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.box1{
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    bottom: -400px;
+    left: 0px;
+    background-color: skyblue;
+    transition: 0.6s;
+}
+
+.main-box1:hover .box1{
+    bottom: 0px;
+
+}
+
+.box1{
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    bottom: -400px;
+    left: 0px;
+    background-color: skyblue;
+    transition: 0.6s;
+}
+
+.main-box1:hover .box1{
+    bottom: 0px;
+
+}
+
+.box2{
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    bottom: 0px;
+    left: -200px;
+    background-color: skyblue;
+    transition: 0.6s;
+}
+
+.main-box1:hover .box2{
+    left: 0px;
+
+}
+
+.box3{
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    bottom: 0px;
+    right: -200px;
+    background-color: skyblue;
+    transition: 0.6s;
+}
+
+.main-box1:hover .box3{
+    right: 0px;
+
+}
+
+.mainbox{
+    width: 80%;
+    height: 400px;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px black,  -2px 2px 1px black;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.box{
+    width: 30%;
+    height: 350px;
+    margin: 25px 1.66% 0px 1.66%;
+    background-color: yellow;
+    border-radius: 20px;
+    float: left;
+    box-shadow: 2px 2px 1px black,  -2px 2px 1px black;
+    overflow: hidden;
+    transition: 0.5s;
+    box-sizing: border-box;
+
+}
+
+.box:hover{
+    box-shadow: 2px 2px 6px black,-2px -2px 6px black;
+}
+
+.innerbox{
+    width: 100%;
+    height: 70%;
+    background-color: blue;
+}
+
+p{
+    margin: 5px 10px 0px 10px;
+}
+
